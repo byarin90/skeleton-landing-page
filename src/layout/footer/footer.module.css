@@ -1,0 +1,143 @@
+.socialIcons {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #151641;
+}
+
+.h4 {
+    font-size: 50px !important;
+    color: #2AC7F7;
+    font-weight: 700;
+    text-align: center;
+}
+
+.iconBox {
+    padding: 10px;
+}
+
+.icon {
+    width: 65px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.whiteFooter {
+    color: #151641;
+    background: #F2F2F2;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+
+.row.center div {
+    margin: 0 30px 0 70px;
+    padding: 30px;
+}
+
+.blackOpsBlue {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #151641;
+    color: #F2F2F2;
+}
+
+.blackOpsBlue p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: #151641 !important;
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+@media screen and (max-width:1180px) {
+    .whiteFooter {
+        height: auto;
+    }
+    .row.center div {
+        margin: 0 5px 0 40px;
+        padding: 25px;
+    }
+    .row.center div {
+        width: 100% !important;
+        background: #F2F2F2 !important;
+    }
+    .blackOpsBlue {
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #151641;
+        color: #F2F2F2;
+    }
+    .blackOpsBlue p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .whiteFooter {
+        height: auto;
+    }
+    .row.center div {
+        margin: 0 5px 0 20px;
+        padding: 25px;
+    }
+    .row.center div {
+        width: 100% !important;
+        background: #F2F2F2 !important;
+    }
+    .blackOpsBlue {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #151641;
+        color: #F2F2F2;
+    }
+    .blackOpsBlue p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whiteFooter {
+        height: auto;
+    }
+    .row.center div {
+        margin: 0 5px 0 20px;
+        padding: 25px;
+    }
+    .whiteFooter .row {
+        display: block;
+    }
+    .row.center div {
+        width: 100% !important;
+        background: #F2F2F2 !important;
+    }
+    .icon {
+        width: 45px;
+        cursor: pointer;
+    }
+}

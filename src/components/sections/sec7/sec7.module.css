@@ -1,0 +1,154 @@
+.sec7 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #151641;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.img {
+    padding: 20px;
+    width: 30%;
+}
+
+@media screen and (max-width:1180px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+    .img {
+        padding: 20px;
+        width: 45%;
+    }
+    .showMobile {
+        display: none !important;
+    }
+}
+
+
+/* ipad mini */
+
+@media screen and (max-width: 819px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+    .img {
+        padding: 20px;
+        width: 45%;
+    }
+    .showMobile {
+        display: none !important;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+}
+
+
+/* Swiper */
+
+.sec5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #151641;
+}
+
+.storiesH {
+    font-size: 35px !important;
+    color: #2AC7F7;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.cardSwiper {
+    height: 280px;
+}
+
+.prevAndNextIcons:hover {
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: 1s;
+}
+
+.bgStory {
+    background-position: center center;
+    background-size: cover;
+}
+
+.showMobile {
+    display: none !important;
+}
+
+.showDekstop {
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1180px) {
+    .container {
+        margin: 0 auto;
+        max-width: 900px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .showMobile {
+        display: none !important;
+    }
+    .showDekstop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .container {
+        margin: 0 auto;
+        max-width: 900px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .showMobile {
+        display: none !important;
+    }
+    .showDekstop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .showMobile {
+        display: block !important;
+    }
+    .showDekstop {
+        display: none;
+    }
+    .cardSwiper {
+        height: 250px;
+    }
+}

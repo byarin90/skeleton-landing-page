@@ -1,0 +1,197 @@
+.box {
+    height: 100vh;
+    background-image: url('../../../../public/emojis/1x/Artboard\ 26.png');
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 55px 60px 0;
+}
+
+.box div {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box div h3 {
+    color: #F2F2F2;
+    font-size: 2.8em;
+    padding: 0px 0 20px 0;
+}
+
+.box div h1 {
+    color: #F2F2F2;
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.box div h1 .devOps {
+    background: #2AC7F7;
+    background: linear-gradient(to top, #2AC7F7 36%, #77E6F7 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box div h1 .engineer {
+    background: #2AC7F7;
+    background: linear-gradient(to bottom, #2AC7F7 18%, #B12BBE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imgLogo {
+    width: 450px;
+    padding-bottom: 80px;
+    display: none;
+}
+
+
+/* ipad air */
+
+@media screen and (max-width:1180px) {
+    .box {
+        height: 40vh;
+        background-image: url('../../../../public/emojis/1x/Artboard\ 26.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    .box div {
+        width: 40%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box div h3 {
+        color: #F2F2F2;
+        font-size: 1.7em;
+        padding: 0 0 0 0;
+    }
+    .box div h1 {
+        color: #F2F2F2;
+        font-size: 3em;
+        font-weight: 800;
+        padding-bottom: 50px;
+    }
+    .box div h1 .devOps {
+        background: #2AC7F7;
+        background: linear-gradient(to top, #2AC7F7 36%, #77E6F7 68%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .box div h1 .engineer {
+        background: #2AC7F7;
+        background: linear-gradient(to bottom, #2AC7F7 18%, #B12BBE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .imgLogo {
+        margin-top: 100px !important;
+        width: 350px;
+        margin-top: 40px;
+    }
+}
+
+
+/* ipad mini */
+
+@media screen and (max-width: 819px) {
+    .box {
+        height: 40vh;
+        background-image: url('../../../../public/emojis/1x/Artboard\ 26.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    .box div {
+        width: 40%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box div h3 {
+        color: #F2F2F2;
+        font-size: 1.5em;
+    }
+    .box div h1 {
+        color: #F2F2F2;
+        font-size: 2.8em;
+        font-weight: 800;
+    }
+    .box div h1 .devOps {
+        background: #2AC7F7;
+        background: linear-gradient(to top, #2AC7F7 36%, #77E6F7 68%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .box div h1 .engineer {
+        background: #2AC7F7;
+        background: linear-gradient(to bottom, #2AC7F7 18%, #B12BBE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .imgLogo {
+        margin-top: 70px;
+        width: 300px;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+    .box {
+        height: 540px;
+        width: 100%;
+        background-image: url('../../../../public/emojis/1x/Artboard\ 27.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .box div {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .box div h3 {
+        color: #F2F2F2;
+        font-size: 1.3em;
+    }
+    .box div h1 {
+        color: #F2F2F2;
+        font-size: 2.2em;
+        font-weight: 800;
+    }
+    .box div h1 .devOps {
+        background: #2AC7F7;
+        background: linear-gradient(to top, #2AC7F7 36%, #77E6F7 68%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .box div h1 .engineer {
+        background: #2AC7F7;
+        background: linear-gradient(to bottom, #2AC7F7 18%, #B12BBE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .imgLogo {
+        margin-top: 0px;
+        width: 310px;
+        padding-bottom: 10px;
+    }
+    .titleBox {
+        margin-top: 100px !important;
+    }
+}

@@ -1,0 +1,74 @@
+.bg {
+    background: #151641;
+}
+
+.box {
+    max-width: 1100px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #F2F2F2;
+}
+
+.underlineGradient {
+    height: 2px;
+    background: rgb(177, 43, 190);
+    background: linear-gradient(90deg, rgba(177, 43, 190, 1) 25%, rgba(59, 199, 241, 1) 100%);
+    width: 30% !important;
+}
+
+.bigTitle {
+    color: rgb(177, 43, 190);
+    font-family: 'Heebo', sans-serif !important;
+    font-size: 65px;
+    font-weight: 200 !important;
+}
+
+.title {
+    color: rgb(177, 43, 190);
+    font-family: 'Heebo', sans-serif !important;
+    font-size: 37px;
+    font-weight: 300;
+}
+
+.li {
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: var( --e-global-color-primary);
+    font-size: 20px;
+    font-weight: 400;
+    color: #F2F2F2;
+}
+
+.btnMoreDetail {
+    font-weight: 600 !important;
+    font-family: 'Heebo', sans-serif !important;
+    background: rgb(177, 43, 190);
+    background: linear-gradient(90deg, rgba(177, 43, 190, 1) 25%, rgba(59, 199, 241, 1) 100%);
+}
+
+.btnMoreDetail:hover {
+    background: rgb(177, 43, 190);
+    background: linear-gradient(90deg, rgba(177, 43, 190, 1) 25%, rgba(59, 199, 241, 1) 100%);
+}
+
+@media screen and (max-width: 767px) {
+    .bigTitle {
+        color: #F2F2F2;
+        font-family: 'Heebo', sans-serif !important;
+        font-size: 50px;
+        font-weight: 200 !important;
+    }
+}
+
+
+/* 
+שכולם יהיו מיושרים לשמאל
+להזיז את הטופס למטה 
+כפתור להשארת פרטים שיוביל לסוף הדף
+
+*/
