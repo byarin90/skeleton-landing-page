@@ -23,7 +23,7 @@ Before running this project, make sure you have:
 1. Clone the repo
 
    ```bash
-   git clone https://github.com/yourusername/skeleton-landing-page.git
+   git clone https://github.com/byarin90/skeleton-landing-page.git
    ```
 
 2. Navigate to the project directory
